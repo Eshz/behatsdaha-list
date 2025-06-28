@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSV Shop Finder</title>
+  <title>Behatsdaha Wallet Shops</title>
   <!-- Bootstrap 5 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- PapaParse Library (for CSV parsing) -->
@@ -12,10 +12,10 @@
 <body>
 
   <div class="container py-5">
-    <h1 class="mb-4">רשתות ״בהצדעה״</h1>
+    <h2 class="mb-4">רשתות ארנק דיגיטלי ״בהצדעה״</h2>
     <!-- Search Input -->
     <div class="mb-3">
-      <input type="text" id="searchInput" class="form-control" placeholder="Search for shops or groups" oninput="filterResults()">
+      <input type="text" id="searchInput" class="form-control" placeholder="חפשו רשתות או חנויות" oninput="filterResults()">
     </div>
 
     <!-- Results List -->
@@ -73,7 +73,7 @@
           resultsList.appendChild(listItem);
         });
       } else {
-        resultsList.innerHTML = '<li class="list-group-item">No results found</li>';
+        resultsList.innerHTML = '<li class="list-group-item">אין תוצאות</li>';
       }
     }
   </script>
